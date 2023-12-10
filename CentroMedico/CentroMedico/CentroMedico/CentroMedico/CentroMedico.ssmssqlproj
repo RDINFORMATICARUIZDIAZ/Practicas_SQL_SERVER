@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CentroMedico">
+  <Items>
+    <LogicalFolder Name="Conexiones" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="OSCAR:">
+          <Created>2022-09-28T18:31:10.9515122-04:00</Created>
+          <Type>SQL</Type>
+          <Server>OSCAR</Server>
+          <UserName />
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="OSCAR:OSCAR_ACER\okiru">
+          <Created>2023-01-27T16:25:18.9542189-03:00</Created>
+          <Type>SQL</Type>
+          <Server>OSCAR</Server>
+          <UserName />
+          <Authentication>Autenticación de Windows</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Consulta</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="OSCAR:sa">
+          <Created>2023-01-17T10:52:56.6581426-03:00</Created>
+          <Type>SQL</Type>
+          <Server>OSCAR</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>CentroMedico</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Consulta</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="OSCAR_ACER\SERVERSQL:JUAN">
+          <Created>2023-12-09T15:01:40.9898422-03:00</Created>
+          <Type>SQL</Type>
+          <Server>OSCAR_ACER\SERVERSQL</Server>
+          <UserName>JUAN</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>CentroMedico1</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Consulta</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="OSCAR_ACER\SERVERSQL:OSCAR_ACER\okiru">
+          <Created>2023-12-04T22:08:17.8493611-03:00</Created>
+          <Type>SQL</Type>
+          <Server>OSCAR_ACER\SERVERSQL</Server>
+          <UserName />
+          <Authentication>Autenticación de Windows</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Consulta</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Consultas" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>C:\Prueba\CentroMedico\Backup_SQLSERVER\Backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BEGIN_TRANSACTION.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BEGIN_TRANSACTION.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Comandos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Comandos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DEL_TURNO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DEL_TURNO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Estructuras_de_Control.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Estructuras_de_Control.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FCN_FechaTexto.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FCN_FechaTexto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Funciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Funciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Historial.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Historial.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INNER JOIN_LEFT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>INNER JOIN_LEFT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INSERT_INTO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>INSERT_INTO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="JOB_CancelaTurnosVencidos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>JOB_CancelaTurnosVencidos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Left_.Right.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Left_.Right.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Operadores.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Operadores.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Roles_T_SQL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Roles_T_SQL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="S13-ALTA_Especialidad.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>S13-ALTA_Especialidad.sql</FullPath>
+        </FileNode>
+        <FileNode Name="S13-ALTA_Medico.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>S13-ALTA_Medico.sql</FullPath>
+        </FileNode>
+        <FileNode Name="S13-ALTA_Paciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>S13-ALTA_Paciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="S13-ALTA_Turnos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>S13-ALTA_Turnos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SCHEDULED_JOB_tAREA_PROGRAMADA .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SCHEDULED_JOB_tAREA_PROGRAMADA .sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEL_EspecialidadesMedicas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SEL_EspecialidadesMedicas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEL_HistoriaPaciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SEL_HistoriaPaciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TablasTemporales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TablasTemporales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Trigger_INSERT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Trigger_INSERT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UDP_Paciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>UDP_Paciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UPD_Turno.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>UPD_Turno.sql</FullPath>
+        </FileNode>
+        <FileNode Name="View.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Vistas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:OSCAR_ACER\SERVERSQL:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>OSCAR_ACER\SERVERSQL</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Vistas.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Varios" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
